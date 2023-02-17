@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.card {
+    background-color: rgb(248, 235, 61);
+    border: 1px solid #000;
+    width: 450px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 25px;
+}
+.card_body {
+    background-color: rgb(249, 247, 196);
+  padding: 5px 0;
+}
+.card_rarity {
+    margin-left: 5px;
+}
+.card_title {
+    display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.card_name {
+}
+.card_hp {
+    display: flex;
+  align-items: center;
+}
+.hp {
+    margin: 0 5px;
+}
+.fa-sharp {
+    background: red;
+    padding: 10px;
+    border-radius: 256px;
+    box-shadow: inset -5px -2px 5px black;
+}
+.fa-solid {
+}
+.fa-bolt {
+}
+.card_img {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pikachu {
+    width: 320px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border: 10px solid #e4eb22;
+  box-shadow: 10px 10px 20px black;
+}
+.pikachu_info {
+    margin: 10px 0;
+  padding: 5px 15px;
+  background: #e4eb22;
+}
+.block {
+}
+.batyko_burger {
+}
+.burger {
+}
